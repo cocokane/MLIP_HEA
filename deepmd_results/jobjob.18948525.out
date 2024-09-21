@@ -1,0 +1,33 @@
+==========================================
+SLURM_CLUSTER_NAME = paramananta
+SLURM_ARRAY_JOB_ID = 
+SLURM_ARRAY_TASK_ID = 
+SLURM_ARRAY_TASK_COUNT = 
+SLURM_ARRAY_TASK_MAX = 
+SLURM_ARRAY_TASK_MIN = 
+SLURM_JOB_ACCOUNT = iitgn
+SLURM_JOB_ID = 18948525
+SLURM_JOB_NAME = JOB
+SLURM_JOB_NODELIST = hm[010-011]
+SLURM_JOB_USER = jayaprakash
+SLURM_JOB_UID = 40272
+SLURM_JOB_PARTITION = small
+SLURM_TASK_PID = 2579
+SLURM_SUBMIT_DIR = /home/jayaprakash/SRIP/FeMnCoCrNi/masterdata/01.train/pot
+SLURM_CPUS_ON_NODE = 48
+SLURM_NTASKS = 96
+SLURM_TASK_PID = 2579
+==========================================
+no change     /home/jayaprakash/miniforge/condabin/conda
+no change     /home/jayaprakash/miniforge/bin/conda
+no change     /home/jayaprakash/miniforge/bin/conda-env
+no change     /home/jayaprakash/miniforge/bin/activate
+no change     /home/jayaprakash/miniforge/bin/deactivate
+no change     /home/jayaprakash/miniforge/etc/profile.d/conda.sh
+no change     /home/jayaprakash/miniforge/etc/fish/conf.d/conda.fish
+no change     /home/jayaprakash/miniforge/shell/condabin/Conda.psm1
+no change     /home/jayaprakash/miniforge/shell/condabin/conda-hook.ps1
+no change     /home/jayaprakash/miniforge/lib/python3.10/site-packages/xontrib/conda.xsh
+no change     /home/jayaprakash/miniforge/etc/profile.d/conda.csh
+no change     /home/jayaprakash/.bashrc
+No action taken.

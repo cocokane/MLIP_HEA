@@ -1,0 +1,102 @@
+
+CondaError: Run 'conda init' before 'conda activate'
+
+2024-09-18 22:42:06.980305: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2024-09-18 22:42:09.133478: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE4.1 SSE4.2 AVX AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING:tensorflow:From /home/jayaprakash/miniforge/envs/deepmd/lib/python3.11/site-packages/tensorflow/python/compat/v2_compat.py:98: disable_resource_variables (from tensorflow.python.ops.resource_variables_toggle) is deprecated and will be removed in a future version.
+Instructions for updating:
+non-resource variables are not supported in the long term
+WARNING:root:To get the best performance, it is recommended to adjust the number of threads by setting the environment variables OMP_NUM_THREADS, TF_INTRA_OP_PARALLELISM_THREADS, and TF_INTER_OP_PARALLELISM_THREADS. See https://deepmd.rtfd.io/parallelism/ for more information.
+2024-09-18 22:43:06.348140: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:388] MLIR V1 optimization pass is not enabled
+WARNING:tensorflow:From /home/jayaprakash/miniforge/envs/deepmd/lib/python3.11/site-packages/deepmd/utils/batch_size.py:28: is_gpu_available (from tensorflow.python.framework.test_util) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.config.list_physical_devices('GPU')` instead.
+WARNING:tensorflow:From /home/jayaprakash/miniforge/envs/deepmd/lib/python3.11/site-packages/deepmd/utils/batch_size.py:28: is_gpu_available (from tensorflow.python.framework.test_util) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.config.list_physical_devices('GPU')` instead.
+WARNING:deepmd_utils.utils.batch_size:You can use the environment variable DP_INFER_BATCH_SIZE tocontrol the inference batch size (nframes * natoms). The default value is 1024.
+DEEPMD INFO    # ---------------output of dp test--------------- 
+DEEPMD INFO    # testing system : ../../00.data/validation_data
+2024-09-18 22:43:07.894629: W tensorflow/core/util/util.cc:161] Not handling type DT_DOUBLE
+2024-09-18 22:43:07.895300: W tensorflow/core/util/util.cc:161] Not handling type DT_DOUBLE
+2024-09-18 22:43:07.895388: W tensorflow/core/util/util.cc:161] Not handling type DT_DOUBLE
+2024-09-18 22:43:07.896040: W tensorflow/core/util/util.cc:161] Not handling type DT_DOUBLE
+2024-09-18 22:43:07.896126: W tensorflow/core/util/util.cc:161] Not handling type DT_DOUBLE
+2024-09-18 22:43:07.896437: W tensorflow/core/util/util.cc:161] Not handling type DT_DOUBLE
+2024-09-18 22:43:07.896517: W tensorflow/core/util/util.cc:161] Not handling type DT_DOUBLE
+2024-09-18 22:43:07.896890: W tensorflow/core/util/util.cc:161] Not handling type DT_DOUBLE
+2024-09-18 22:43:07.897470: W tensorflow/core/util/util.cc:161] Not handling type DT_DOUBLE
+2024-09-18 22:43:07.897550: W tensorflow/core/util/util.cc:161] Not handling type DT_DOUBLE
+2024-09-18 22:43:07.898191: W tensorflow/core/util/util.cc:161] Not handling type DT_DOUBLE
+2024-09-18 22:43:07.898271: W tensorflow/core/util/util.cc:161] Not handling type DT_DOUBLE
+2024-09-18 22:43:07.898580: W tensorflow/core/util/util.cc:161] Not handling type DT_DOUBLE
+2024-09-18 22:43:07.898659: W tensorflow/core/util/util.cc:161] Not handling type DT_DOUBLE
+2024-09-18 22:43:07.899289: W tensorflow/core/util/util.cc:161] Not handling type DT_DOUBLE
+2024-09-18 22:43:07.899862: W tensorflow/core/util/util.cc:161] Not handling type DT_DOUBLE
+2024-09-18 22:43:07.899940: W tensorflow/core/util/util.cc:161] Not handling type DT_DOUBLE
+2024-09-18 22:43:07.900576: W tensorflow/core/util/util.cc:161] Not handling type DT_DOUBLE
+2024-09-18 22:43:07.900656: W tensorflow/core/util/util.cc:161] Not handling type DT_DOUBLE
+2024-09-18 22:43:07.900981: W tensorflow/core/util/util.cc:161] Not handling type DT_DOUBLE
+2024-09-18 22:43:07.901061: W tensorflow/core/util/util.cc:161] Not handling type DT_DOUBLE
+2024-09-18 22:43:07.901690: W tensorflow/core/util/util.cc:161] Not handling type DT_DOUBLE
+2024-09-18 22:43:07.902261: W tensorflow/core/util/util.cc:161] Not handling type DT_DOUBLE
+2024-09-18 22:43:07.902342: W tensorflow/core/util/util.cc:161] Not handling type DT_DOUBLE
+2024-09-18 22:43:07.902986: W tensorflow/core/util/util.cc:161] Not handling type DT_DOUBLE
+2024-09-18 22:43:07.903067: W tensorflow/core/util/util.cc:161] Not handling type DT_DOUBLE
+2024-09-18 22:43:07.903382: W tensorflow/core/util/util.cc:161] Not handling type DT_DOUBLE
+2024-09-18 22:43:07.903460: W tensorflow/core/util/util.cc:161] Not handling type DT_DOUBLE
+2024-09-18 22:43:07.904098: W tensorflow/core/util/util.cc:161] Not handling type DT_DOUBLE
+2024-09-18 22:43:07.904665: W tensorflow/core/util/util.cc:161] Not handling type DT_DOUBLE
+2024-09-18 22:43:07.904744: W tensorflow/core/util/util.cc:161] Not handling type DT_DOUBLE
+2024-09-18 22:43:07.905383: W tensorflow/core/util/util.cc:161] Not handling type DT_DOUBLE
+2024-09-18 22:43:07.905463: W tensorflow/core/util/util.cc:161] Not handling type DT_DOUBLE
+2024-09-18 22:43:07.905773: W tensorflow/core/util/util.cc:161] Not handling type DT_DOUBLE
+2024-09-18 22:43:07.905852: W tensorflow/core/util/util.cc:161] Not handling type DT_DOUBLE
+2024-09-18 22:43:08.556667: W tensorflow/core/util/util.cc:161] Not handling type DT_DOUBLE
+2024-09-18 22:43:08.557041: W tensorflow/core/util/util.cc:161] Not handling type DT_DOUBLE
+2024-09-18 22:43:08.557135: W tensorflow/core/util/util.cc:161] Not handling type DT_DOUBLE
+2024-09-18 22:43:08.557426: W tensorflow/core/util/util.cc:161] Not handling type DT_DOUBLE
+2024-09-18 22:43:08.557507: W tensorflow/core/util/util.cc:161] Not handling type DT_DOUBLE
+2024-09-18 22:43:08.557656: W tensorflow/core/util/util.cc:161] Not handling type DT_DOUBLE
+2024-09-18 22:43:08.557735: W tensorflow/core/util/util.cc:161] Not handling type DT_DOUBLE
+2024-09-18 22:43:08.559570: W tensorflow/core/util/util.cc:161] Not handling type DT_DOUBLE
+2024-09-18 22:43:08.559841: W tensorflow/core/util/util.cc:161] Not handling type DT_DOUBLE
+2024-09-18 22:43:08.559920: W tensorflow/core/util/util.cc:161] Not handling type DT_DOUBLE
+2024-09-18 22:43:08.560204: W tensorflow/core/util/util.cc:161] Not handling type DT_DOUBLE
+2024-09-18 22:43:08.560284: W tensorflow/core/util/util.cc:161] Not handling type DT_DOUBLE
+2024-09-18 22:43:08.560430: W tensorflow/core/util/util.cc:161] Not handling type DT_DOUBLE
+2024-09-18 22:43:08.560509: W tensorflow/core/util/util.cc:161] Not handling type DT_DOUBLE
+2024-09-18 22:43:08.560872: W tensorflow/core/util/util.cc:161] Not handling type DT_DOUBLE
+2024-09-18 22:43:08.561144: W tensorflow/core/util/util.cc:161] Not handling type DT_DOUBLE
+2024-09-18 22:43:08.561223: W tensorflow/core/util/util.cc:161] Not handling type DT_DOUBLE
+2024-09-18 22:43:08.561504: W tensorflow/core/util/util.cc:161] Not handling type DT_DOUBLE
+2024-09-18 22:43:08.561582: W tensorflow/core/util/util.cc:161] Not handling type DT_DOUBLE
+2024-09-18 22:43:08.561727: W tensorflow/core/util/util.cc:161] Not handling type DT_DOUBLE
+2024-09-18 22:43:08.561806: W tensorflow/core/util/util.cc:161] Not handling type DT_DOUBLE
+2024-09-18 22:43:08.562178: W tensorflow/core/util/util.cc:161] Not handling type DT_DOUBLE
+2024-09-18 22:43:08.562445: W tensorflow/core/util/util.cc:161] Not handling type DT_DOUBLE
+2024-09-18 22:43:08.562523: W tensorflow/core/util/util.cc:161] Not handling type DT_DOUBLE
+2024-09-18 22:43:08.562797: W tensorflow/core/util/util.cc:161] Not handling type DT_DOUBLE
+2024-09-18 22:43:08.562875: W tensorflow/core/util/util.cc:161] Not handling type DT_DOUBLE
+2024-09-18 22:43:08.563020: W tensorflow/core/util/util.cc:161] Not handling type DT_DOUBLE
+2024-09-18 22:43:08.563103: W tensorflow/core/util/util.cc:161] Not handling type DT_DOUBLE
+2024-09-18 22:43:08.563495: W tensorflow/core/util/util.cc:161] Not handling type DT_DOUBLE
+2024-09-18 22:43:08.563768: W tensorflow/core/util/util.cc:161] Not handling type DT_DOUBLE
+2024-09-18 22:43:08.563847: W tensorflow/core/util/util.cc:161] Not handling type DT_DOUBLE
+2024-09-18 22:43:08.564127: W tensorflow/core/util/util.cc:161] Not handling type DT_DOUBLE
+2024-09-18 22:43:08.564206: W tensorflow/core/util/util.cc:161] Not handling type DT_DOUBLE
+2024-09-18 22:43:08.564352: W tensorflow/core/util/util.cc:161] Not handling type DT_DOUBLE
+2024-09-18 22:43:08.564431: W tensorflow/core/util/util.cc:161] Not handling type DT_DOUBLE
+DEEPMD INFO    # number of test data : 238 
+DEEPMD INFO    Energy MAE         : 4.406981e-02 eV
+DEEPMD INFO    Energy RMSE        : 5.510392e-02 eV
+DEEPMD INFO    Energy MAE/Natoms  : 4.278623e-04 eV
+DEEPMD INFO    Energy RMSE/Natoms : 5.349895e-04 eV
+DEEPMD INFO    Force  MAE         : 1.190562e-02 eV/A
+DEEPMD INFO    Force  RMSE        : 1.563166e-02 eV/A
+DEEPMD INFO    Virial MAE         : 8.051844e+00 eV
+DEEPMD INFO    Virial RMSE        : 1.284038e+01 eV
+DEEPMD INFO    Virial MAE/Natoms  : 7.817325e-02 eV
+DEEPMD INFO    Virial RMSE/Natoms : 1.246639e-01 eV
+DEEPMD INFO    # ----------------------------------------------- 
