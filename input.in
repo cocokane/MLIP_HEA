@@ -1,0 +1,84 @@
+[BISPECTRUM]
+numTypes = 5
+twojmax = 6
+rcutfac = 4.67637
+rfac0 = 0.99363
+rmin0 = 0.0
+wj = 1.0
+radelem = 0.5
+type = Fe
+type = Mn
+type = Co
+type = Cr
+type = Ni
+wselfallflag = 0
+chemflag = 0
+bzeroflag = 0
+quadraticflag = 0
+
+[CALCULATOR]
+calculator = LAMMPSSNAP
+energy = 1
+force = 1
+stress = 1
+
+[ESHIFT]
+Fe = 0.0
+Mn = 0.0
+Co = 0.0
+Cr = 0.0
+Ni = 0.0
+
+[SOLVER]
+solver = SVD
+compute_testerrs = 1
+detailed_errors = 1
+
+[SCRAPER]
+scraper = JSON
+
+[PATH]
+dataPath = JSON
+
+[OUTFILE]
+metrics = hea_metrics.md
+potential = hea_pot
+
+[REFERENCE]
+units = metal
+atom_style = atomic
+pair_style = hybrid/overlay zero 10.0 zbl 4.0 4.8
+pair_coeff1 = * * zero
+pair_coeff2 = * * zbl 26 26  # Fe-Fe interaction (replace 26 with the correct atomic number)
+pair_coeff2 = * * zbl 25 25  # Mn-Mn interaction
+pair_coeff2 = * * zbl 27 27  # Co-Co interaction
+pair_coeff2 = * * zbl 24 24  # Cr-Cr interaction
+pair_coeff2 = * * zbl 28 28  # Ni-Ni interaction
+
+[GROUPS]
+# name size eweight fweight vweight
+group_sections = name training_size testing_size eweight fweight vweight
+group_types = str float float float float float
+smartweights = 0
+random_sampling = 0
+Displaced_A15 =  1.0    0.0       100             1               1.00E-08
+Displaced_BCC =  1.0    0.0       100             1               1.00E-08
+Displaced_FCC =  1.0    0.0       100             1               1.00E-08
+Elastic_BCC   =  1.0    0.0     1.00E-08        1.00E-08        0.0001
+Elastic_FCC   =  1.0    0.0     1.00E-09        1.00E-09        1.00E-09
+GSF_110       =  1.0    0.0      100             1               1.00E-08
+GSF_112       =  1.0    0.0      100             1               1.00E-08
+Liquid        =  1.0    0.0       4.67E+02        1               1.00E-08
+Surface       =  1.0    0.0       100             1               1.00E-08
+Volume_A15    =  1.0    0.0      1.00E+00        1.00E-09        1.00E-09
+Volume_BCC    =  1.0    0.0      1.00E+00        1.00E-09        1.00E-09
+Volume_FCC    =  1.0    0.0      1.00E+00        1.00E-09        1.00E-09
+
+[EXTRAS]
+dump_descriptors = 1
+dump_truth = 1
+dump_weights = 1
+dump_dataframe = 1
+
+[MEMORY]
+override = 0
